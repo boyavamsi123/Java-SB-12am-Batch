@@ -1,0 +1,88 @@
+27.01.2025 : WEDNESDAY
+-----------------------
+
+What is Java?
+---------------
+Java is a programming language and computing platform, first released by Sun Microsystems in 1995. 
+It has grown from humble beginnings to power much of today's digital world by providing a reliable 
+platform upon which many services and applications are built.
+
+how to download java software:-
+--------------------------------
+Step 1: Click on the “Download Java” icon as shown in the image below.
+Step 2: Now you can see the latest version is JDK 23 and there are options for Linux, macOS, and Windows.
+Click on the Windows option and then click the x64 Installer option to download the .exe file for 64-bit Windows OS
+
+scripting programming language:-
+---------------------------------
+js
+ex:-test.js
+console.log("Hello World");
+>node test.js
+
+ts
+vb
+perl
+shell
+python
+
+functional programming language:-
+-----------------------------------
+c
+ex:-test.c
+python
+ex:-test.py
+def main():
+print("Hello world")
+main()
+>py test.py
+
+oops:-
+
+c++
+java
+
+ex 1:-test.java
+
+public class test{
+public static void main(String[] args){
+System.out.println("Hello,World");
+}
+}
+
+>javac test.java
+>java test
+ Hello,world
+ 
+Ex 2:-Test.java
+
+class A{
+    public static void main(String[] args){
+        System.out.println("Hello...");
+    }
+}
+class B{
+    public static void main(String[] args){
+        System.out.println("Hi...");
+    }
+}
+class C{
+    public static void main(String[] args){
+        System.out.println("How are you...");
+    }
+}
+class D{
+    public static void main(String[] args){
+        System.out.println("Fine...");
+    }
+}
+
+>javac Test.java
+>java A
+ Hello...
+>java B
+ Hi...
+>java C
+ How are you...
+>java D
+ Fine...
