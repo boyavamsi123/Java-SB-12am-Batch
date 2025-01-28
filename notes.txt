@@ -1,4 +1,4 @@
-27.01.2025 : WEDNESDAY
+27.01.2025 : MONDAY
 -----------------------
 
 What is Java?
@@ -86,3 +86,70 @@ class D{
  How are you...
 >java D
  Fine...
+ 
+ 28.01.2025 : TUESDAY
+--------------------------------- 
+ 
+public class Test{
+    
+     public static void main(String[] args){
+        int eid=101;
+        String ename="Rahul";
+        double esal=45000.45;
+        char avail='y';
+        float price=35.35f;
+        System.out.println(esal);
+        System.out.println(ename);
+     }
+}
+
+>javac Test.java
+
+D:\Java-SB-12am-Batch\28.01.2025\class-1>java Test
+45000.45
+Rahul
+
+------------------------------------------------------------
+
+public class Test{
+    public static void login(){
+        System.out.println("Login Successfully...");
+    }
+    public static void main(String[] args){
+        login();
+    }
+}
+
+D:\Java-SB-12am-Batch\28.01.2025\class-1>javac Test.java
+
+D:\Java-SB-12am-Batch\28.01.2025\class-1>java Test
+Login Successfully...
+
+-----------------------------------------------------------------
+Data type related keyword:-
+----------------------------------------------
+
+byte,short,int,long
+float,double
+char
+boolean
+
+Reserved leterel keyword:-
+-------------------------------------------------
+true
+false
+
+control flow statements:-
+--------------------------------------------------
+
+if,else
+for,while,do
+break,continue
+switch,case,breake,default
+
+public
+private
+protected
+default
+static
+abstract
