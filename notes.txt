@@ -125,6 +125,21 @@ D:\Java-SB-12am-Batch\28.01.2025\class-1>javac Test.java
 D:\Java-SB-12am-Batch\28.01.2025\class-1>java Test
 Login Successfully...
 
+-------------------------------------------------------------------
+
+class one{
+    public static void main(String[] args){
+        String firstName = "John";
+        String lastName = "Doe";
+        String fullName = firstName+lastName;
+        System.out.println(fullName);
+    }
+}
+
+D:\Java-SB-12am-Batch\28.01.2025\class-1>javac one.java
+
+D:\Java-SB-12am-Batch\28.01.2025\class-1>java one
+JohnDoe
 -----------------------------------------------------------------
 Data type related keyword:-
 ----------------------------------------------
