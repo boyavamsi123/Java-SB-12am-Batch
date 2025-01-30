@@ -89,7 +89,15 @@ class D{
  
  28.01.2025 : TUESDAY
 --------------------------------- 
- 
+1) if class is public class name & file name should be same;
+2) Non-static variable method can't ref in static context 
+3) Incompatible Types
+EX:-
+
+CMD>javac Test.java
+    java Test
+	
+	
 public class Test{
     
      public static void main(String[] args){
@@ -110,6 +118,7 @@ D:\Java-SB-12am-Batch\28.01.2025\class-1>java Test
 Rahul
 
 ------------------------------------------------------------
+
 
 public class Test{
     public static void login(){
@@ -168,3 +177,95 @@ protected
 default
 static
 abstract
+---------------------------------------------------------
+29.01.2025
+--------------------------------------------------------
+
+public class Product{
+    public static void main(String[] args){
+        int Price = 299;
+        String p_Name = "Mens Check Shirt";
+        String brand = "TECK";
+        double rating = 4.3;
+        long mobile = 9346148860l;
+
+        System.out.println(Price);    
+        System.out.println(p_Name); 
+        System.out.println(brand);
+        System.out.println(rating);
+        System.out.println(mobile);
+    }
+}
+
+D:\Java-SB-12am-Batch\29.01.2025\class>javac Product.java
+
+D:\Java-SB-12am-Batch\29.01.2025\class>java Product
+299
+Mens Check Shirt
+TECK
+4.3
+9346148860
+-----------------------------------------------------------------
+
+primitive Datatype:-
+-----------------------
+byte
+short
+int
+long
+
+Ref Data Type:-
+------------------------
+String
+String Buffer
+String Builder
+AL
+Array
+
+Usre Defined
+
+Employee
+Account
+User
+Person
+------------------------------------------------------------------------
+public class TestThree{
+     public static void main(String[] args){
+        String[] sizes={"s","m","l","xl"};
+        int[] eids={101,102,103,104};
+        String[] enames={"Rahul","Soniya","Priya"};
+        String ename="Rahul Gandhi";
+
+        System.out.println(sizes);  //address of obj
+        System.out.println(ename);  //Rahul
+        System.out.println(eids);   //Object of Obj
+        System.out.println(enames); //Object Of Obj
+     }
+}
+--------------------------------------------------------------------------
+D:\Java-SB-12am-Batch\29.01.2025\class>javac TestThree.java
+
+D:\Java-SB-12am-Batch\29.01.2025\class>java TestThree
+[Ljava.lang.String;@372f7a8d
+Rahul Gandhi
+[I@2f92e0f4
+[Ljava.lang.String;@28a418fc
+
+-----------------------------------------------------------------------------
+30.01.2025
+-------------
+                           method
+						   -------
+			  static method     instance method
+
+                           variable
+						   ---------
+		instance var       static var    local var
+		
+-variable value is varied from object to object
+-
+
+-variable  value is not varied from object to object
+-only one copy will created and shared to all objects
+-class level variables
+-static keyword

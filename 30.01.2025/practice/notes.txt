@@ -1,0 +1,30 @@
+java variables:-
+---------------------------------------------------------------------
+- variables are containers it can be storing the values
+- in java where are defferent types of variables are available
+  with the help of data types
+---------------------------------------------------------------------
+Example:-
+------------
+Data types:-
+------------
+1.string
+2.int
+3.float
+4.char
+5.boolean
+Ex:-
+---
+string name = "vamsi";
+int myNum = 25;
+float myFloatNum = 5.79f;
+char = "A";
+boolean myBool = true;
+Here
+string,int,float,char,boolean are the data types
+name,myNum,myFloatNum,myBool variables
+--------------------------------------------------------------------
+System.out.println("The string is "+name);
+System.out.println("The my number is "+myNum);
+System.out.println("The character is "+myLetter);
+System.out.println("The Boolean values is "myBool);
