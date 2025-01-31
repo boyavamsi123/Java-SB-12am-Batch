@@ -1,0 +1,44 @@
+java variables:-
+*instance
+*static 
+*local
+-----------------------------------------------------------------
+instance:
+
+-if variable value is varied from object to object
+-seporate copy will create for every object
+-how to access?
+ using object
+-scope with in object
+-object level variable
+-------------------------------------------------------------------
+static:
+
+- if var value is not varied from object to object
+-ony one copy will create & shared to all object
+-how to access?
+ a.using class name
+ b.using object
+ c. in static context
+-class level
+-class level variable
+
+java operators:
+
+java Arrays:
+
+java controlflow statements:
+-conditional flow statements:-
+-----------------------------
+if
+if else
+switch
+case
+break
+default
+-iterative flow statements:-
+-----------------------------
+for loop
+while loop
+do while loop
+for each loop
