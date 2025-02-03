@@ -1,0 +1,20 @@
+while():-if we dont know the no of iterative in advance then we will go 
+for / best suitable loop is while
+
+do-while():-if we want  execute loop statement atleast once then we go for
+do-while.
+
+initilization|      for
+condition    |-->   while
+incre/decre  |      do while
+
+Syntax:
+-------
+for(initilization,condition,incre/decre){
+
+}
+----------------------------------------------------------
+for(int i=1; i<=10; i++){
+
+}
+for each array & collections
