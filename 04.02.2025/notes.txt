@@ -1,0 +1,22 @@
+conditional statements:-
+------------------------
+1.if
+Ex:-
+int sal=45000;
+if(sal>40000){
+
+}
+2.if else
+3.switch
+ case
+ break
+ default
+4.ternary ?
+iterative flow statements:-
+--------------------------
+1.for
+2.while
+3.do while
+4.for each
+
+controll flow statements:
