@@ -271,4 +271,147 @@ Rahul Gandhi
 -static keyword
 
 class-it is the collection of methods,objects,variables
+----------------------------------------------------------
+31.01.2025-Friday
+-----------------
 
+java variables:-
+*instance
+*static 
+*local
+-----------------------------------------------------------------
+instance:
+
+-if variable value is varied from object to object
+-seporate copy will create for every object
+-how to access?
+ using object
+-scope with in object
+-object level variable
+-------------------------------------------------------------------
+static:
+
+- if var value is not varied from object to object
+-ony one copy will create & shared to all object
+-how to access?
+ a.using class name
+ b.using object
+ c. in static context
+-class level
+-class level variable
+
+java operators:
+
+java Arrays:
+
+java controlflow statements:
+-conditional flow statements:-
+-----------------------------
+if
+if else
+switch
+case
+break
+default
+-iterative flow statements:-
+-----------------------------
+for loop
+while loop
+do while loop
+for each loop
+----------------------------------------------------------------------------
+03.02.202-MONDAY
+------------------
+data typs:
+byte  1byte-8byte     0
+short  2byte          0
+int    4byte          0
+long     8
+float    4
+double   8
+char
+boolean
+
+1.non static member:
+-----------------
+variable 
+method
+->con't ref from static context
+
+2.public ->filr name
+3.type casting error
+
+Arithmatic operator:
+
+ralational operator: <  >
+                     <= >=
+logicla operator: && ||
+equalty operator: ==  !=
+Assignment & compound 
+Assignment operator   : 
+
+
+
+
+Forms of operator:-
+Unary Operator:-
+An operator that works only one operand is called as unary operator
+Ex:-a++ or a-- or b++ or b-- or --a or --b
+Binary operator:-
+An operator that works with two operands is called as binary operator
+Ex:-a+b,a-b,a*b,a/b etc...
+Ternary Operator:-
+An operators that works with three operands or expression.(a>b)?a is big : b is big
+
+Logical Operators:-
+A     B      A&&B      A||B 
+T     T       T         T
+T     F       F         T
+F     T       F         T
+F     F       F         F
+
+
+public class Test{
+    public static void main(String[] args){
+        int a=10;
+        int b=20;
+        float c=30.5f;
+        System.out.println("The number of addition a and b is: "+(a+b)); //30
+        System.out.println("The number of addition a and c is: "+(a+c)); //40.5
+    }
+}
+
+public class TestOne{
+    public static void main(String[] args){
+        int a=10;
+        String ename="Rahul";
+        System.out.println(a+ename); //10Rahul
+        System.out.println(ename+a); //Rahul10
+        System.out.println(ename+"Gandhi"); //RahulGandhi
+    }
+}
+-------------------------------------------------------------------------------------------
+04.02.2025-Tuesday
+------------------
+controll flow statements:
+
+conditional statements:-
+------------------------
+1.if
+Ex:-
+int sal=45000;
+if(sal>40000){
+
+}
+2.if else
+3.switch
+ case
+ break
+ default
+4.ternary ?
+iterative flow statements:-
+--------------------------
+1.for
+2.while
+3.do while
+4.for each
