@@ -460,4 +460,48 @@ eids[2] = 103;
 
 4.declaration,creation,initialization in one line
 
-int[] eids = {101,102,103	
+int[] eids = {101,102,103};
+
+07.02.2025
+------------
+
+java array:-
+- group of elements as are one entity
+- allowed homogeneous / similar elements
+- allowed duplicated
+- array elements re string based an indexing
+- nagitive indexing not posible
+- insertion order maintained
+- array fixed nature  once array created we can't add new element & delete element
+
+iterative object:-
+
+create
+
+int[] eids={101,102,103};
+int eids; // declaration
+eids = new int[3]; //creatrion
+eids[0]=101;
+eids[1]=102;
+eids[2]=103;
+
+read
+
+//how to read array elements indexing
+System.out.println(eids);
+System.out.println(eids[0]);
+System.out.println(eids[1]);
+System.out.println(eids[2]);
+System.out.println(eids[3]); //Runtime exception 
+
+update
+
+eids[2]=205;
+System.out.println(eids[2]); //205
+
+delete
+
+- add new element x
+- delete new element x
+
+note: once array created, we can't increase size & decrease size 
