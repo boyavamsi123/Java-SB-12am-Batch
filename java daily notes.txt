@@ -322,7 +322,7 @@ for each loop
 ----------------------------------------------------------------------------
 03.02.202-MONDAY
 ------------------
-data typs:
+data types:
 byte  1byte-8byte     0
 short  2byte          0
 int    4byte          0
@@ -415,3 +415,49 @@ iterative flow statements:-
 2.while
 3.do while
 4.for each
+
+05.02.2025
+----------
+when to use for loop ?
+when to use while loop ?
+
+iterative flow statements:-
+--------------------------
+1.for
+2.while
+syntax:-
+while(condition st){
+//st1
+//st2
+incre/decre
+}
+
+3.do{ 
+    }while
+4.for each
+
+06.02.2025:-
+-----------
+what is the array:-
+group of  elements an one entity
+
+1.declaration
+
+int[] eids;
+String[] enames;
+char[] evail;
+
+2.creation
+
+eids[] = new int[3];
+enames = new String[3];
+
+3.initialization
+
+eids[0] = 101;
+eids[1] = 102;
+eids[2] = 103;
+
+4.declaration,creation,initialization in one line
+
+int[] eids = {101,102,103	
