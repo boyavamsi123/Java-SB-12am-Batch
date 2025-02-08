@@ -1,0 +1,53 @@
+Java - Arrays Questions?
+-------------------------
+79.On which memory arrays are created in Java?
+-------------------------------------------------
+  In Java reference types are stored in the Heap area . As arrays 
+  are also reference types, (they can be created using the “new” keyword) 
+  they are also stored in the Heap area.
+
+80.What is an array in Java?
+-------------------------------------------------
+  An array is a container object that holds a fixed number of values ​​
+  of a single type . The length of an array is established when the
+  array is created. After creation, its length is fixed. You have 
+  seen an example of arrays already, in the main method of the 
+  "Hello World!" application.
+
+81. What are the types of an array?
+---------------------------------------------------
+There are several types of arrays:-
+  -one-dimensional
+  -multi-dimensional
+  -two-dimensional
+  -three-dimensional
+  -associative arrays
+
+82.Is it possible to declare array size as negative?
+83.How to copy an array in Java?
+84.What is the default value of the array?
+85.What is an anonymous array that also gives an example?
+86.How many ways to find the duplicate elements in an array?
+87.Which operations can be performed on an array?
+88.Write a program to check whether two given Arrays are equal, given both
+contain the same data type and same length ?
+89.How to find the missing number in a given Array from number 1 to 100 ?
+90.Write a program to search a specific element in an Array?
+91.What will happen if you do not initialize an Array?
+92.How to find duplicate elements in a given Array?
+93.What are the different ways to traverse an Array in java?
+94.WAP to find out the smallest and largest number in a given Array?
+95.How to reverse an Array in Java ?
+96.Write a program to sum all the values of a given Array in java?
+97.WAP how do you separate zeros and non-zeros in a given Array in java?
+98.How to convert Array to ArrayList in java ?
+99.How to convert ArrayList to String Array in java ?
+100. Write a program to find the second largest element in a given Array in
+java?
+101. How to check if Array contains the desired value or not ?
+102. Write a program to find the first repeating number in an integer Array?
+103. What is the difference between Array and ArrayList?
+104. How can we check if an array contains values or not?
+105. What are the advantages and disadvantages of an array?
+106. Can you change the size of Array in java after creation?
+107. Write a program to sort an Array in Java ?
