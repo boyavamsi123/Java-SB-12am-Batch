@@ -505,3 +505,6 @@ delete
 - delete new element x
 
 note: once array created, we can't increase size & decrease size 
+
+print display only even/odd no?
+print sum of array elements?
