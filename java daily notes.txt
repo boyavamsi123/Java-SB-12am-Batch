@@ -508,3 +508,117 @@ note: once array created, we can't increase size & decrease size
 
 print display only even/odd no?
 print sum of array elements?
+
+10.02.2025:
+----------
+package:-It is an mechanism to group related classes and interfaces
+into a single module.
+
+
+ecom:
+
+User
+Product
+order
+py
+
+package com.appabasic.bookphotoframes;
+
+import java.util.Random;
+
+import android.content.context;
+import android.graphics.Bitmap;
+import android.graphics.Color;
+
+public class ImageFilters{
+Context Context;
+public
+}
+
+package:-It is an mechanism to group related classes and interfaces
+into a single module.
+
+The main purpose is
+1)improve the modularity
+2)provide security
+3)To resolve naming conflicts
+
+>javac -d . Test.java
+ -d - destination
+ . - current working dir
+
+access modifiers
+
+class modifiers - public final abstract strict default
+
+class A{}
+-whether our class can accessed from any where or not?
+-whether child class creation is possible for our class or not?
+-where instanciation is possible or not?
+
+A a = new A()
+
+class method variable	
+
+
+public:-
+------
+final
+abstract
+strict floating point is a top level
+
+Applicable modifier for top level classes :
+
+public
+default
+final
+abstract
+strict floating point
+------------------------------------------------------------
+
+Test.java
+
+private class Test{}
+
+error: modifier private not allowed here
+----------------------------------------------------------------------------
+
+Test.java
+
+public  class Demo{}
+
+error: class Demo is public, should be declared in a file named Demo.java
+----------------------------------------------------------------------------
+
+Test.java
+
+public strictfp final abstract  class Test{}
+
+ error: illegal combination of modifiers: abstract and final
+public strictfp final abstract  class Test{}
+                                ^
+Test.java:1: warning: [strictfp] as of release 17, all floating-point expressions are evaluated strictly and 'strictfp' is not required
+public strictfp final abstract  class Test{}
+                                ^
+1 error
+1 warning
+
+Note: class level access modifiers are 
+
+public - we can access from anywhere
+default - with in the current package
+strictfp - 
+final 
+abstract
+
+final modifiers:
+final is modifier applicable for classes, methods and variables
+final class A{}
+
+class A{
+finalvoid display(){}
+}
+
+class A{
+final int a = 100;
+}
