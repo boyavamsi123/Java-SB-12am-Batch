@@ -1,3 +1,2 @@
-class Outer{
-    static  class Inner{}
-}
+final class Parent{}
+class child extends Parent{}
