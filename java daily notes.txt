@@ -575,6 +575,15 @@ final
 abstract
 strict floating point
 ------------------------------------------------------------
+method level modifier classes:
+
+public
+private
+protected
+final
+abstract
+static
+synchronized
 
 Test.java
 
@@ -622,3 +631,84 @@ finalvoid display(){}
 class A{
 final int a = 100;
 }
+
+Inner class Level - access modifiers
+------------------------------------
+public 
+private
+protected
+final
+Strictfp
+abstract
+static
+
+Top class - Level access modifiers
+-----------------------------------
+public
+default
+final
+abstract
+strictfp
+
+final modifiers:
+----------------
+final modifier applicable for class , methods and variables.
+
+final class Outer{
+final void m1(){
+final int x=100;
+}
+}
+---------------------------------------------------------------------------------------------
+If method declared as the final then we are not allowed  to override the method child classes:
+
+class parent{
+final void display(){}
+}
+class child extends parent{
+void display(){
+}
+}
+
+javac Test.java
+Test.java:5: error: display() in child cannot override display() in parent
+void display(){
+     ^
+  overridden method is final
+1 error
+--------------------------------------------------------------------
+if a class declared as final then we can't create child classes.
+
+Inheritance:
+-we want use existing feature.
+-adding new feature.
+--------------------------------------------------------------------
+final class Parent{}
+class child extends Parent{}
+
+ javac Test.java
+Test.java:2: error: cannot inherit from final Parent
+class child extends Parent{}
+                    ^
+1 error
+---------------------------------------------------------------------
+final class A{
+void m1(){}
+void m2(){}
+}
+
+Note:Every method parent inside a final class is always final by default.
+but every variable present inside a final need not be final
+
+Main Advantage : we are achiving security as no one is allowed change our logic or implimentation.
+Dis Advantage : we are loosing inheritance & polymorphism
+
+abstract: abstract modifier applicable for classes and method but not for variable.
+
+final   : Talk about implimentation
+abstract: Never Talks about implimentation
+
+abstract method:
+
+int display(){} - implimentation is available.
+int display():  - No implimentation
