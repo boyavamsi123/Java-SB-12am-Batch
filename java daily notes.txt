@@ -576,10 +576,11 @@ abstract
 strict floating point
 ------------------------------------------------------------
 method level modifier classes:
-
+-----------------------------
 public
 private
 protected
+default
 final
 abstract
 static
@@ -631,6 +632,9 @@ finalvoid display(){}
 class A{
 final int a = 100;
 }
+
+11.02.2025
+----------
 
 Inner class Level - access modifiers
 ------------------------------------
