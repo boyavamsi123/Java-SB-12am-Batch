@@ -714,5 +714,134 @@ abstract: Never Talks about implimentation
 
 abstract method:
 
-int display(){} - implimentation is available.
+int display():  - implimentation is available.
 int display():  - No implimentation
+
+Top class:-
+----------
+public  :-
+
+default :-
+
+abstract:- never talks about implementation abstract class abstract method	
+         - method,class
+		 
+		 class Test{
+		 abstract void m1();    //m1 means display    (main objective as interface)
+		 }
+		 
+		 - child class is responsible
+		 
+    interface:- 100% abstract classes
+	----------------------------------
+	Any service requirement specification(SBR) is consider as interface.
+	
+	Adv:
+        - we can achieve security. we are not highliting our internal implementation
+		
+		interface Test {
+		void m1();
+		void m2();
+		}
+		
+	enhancement will become easy.
+
+	Two different system are communicating.
+		 
+		 interface Test{
+		     void m1();
+			 void m2();
+		}
+		
+	class to class - extends
+    class to interance - implements
+
+    extends vs implement
+	
+1.an class can extends only one class at time.
+	
+	class p{}
+	
+	class c extends p{}	
+
+2.a class can implements any no of interfaces at a time.
+	
+	interface A{}
+	interance B{}
+	class Test implements A, B{
+
+    }	
+	
+abstract class Test{
+abstract void m1();
+abstract void m2();
+void m3(){}
+}
+abstract class child extends Test{
+void m1(){}
+void m2(){}
+}
+
+3.a class can extend a class and can implements n no of interfances.
+
+interface A{}
+interface B{}
+
+class Test{}
+class Demo extends Test implements A,B{}
+
+4.an interface can extends n no of interfaces at a time.
+
+
+
+strictfp:- float,double use this one
+
+final   :- class,method,variable
+
+1.an class can extends only one class at time.
+2.a class can implements any no of interfaces at a time.
+3.a class can extend a class and can implements n no of interfances.
+4.an interface can extends n no of interfaces at a time.
+
+interface A{
+    void m1();
+    public abstract void m2(); 
+}
+class Test implements A{
+    public void m1(){}
+    public void m2(){}
+}
+//wheather we are declared or not every interface method is by default -
+// it is abstract and public
+
+interface variable:-
+--------------------
+
+interface A{
+    int x = 10;
+}
+class Demo implements A{
+    
+    public static void main(String[] args) {
+        System.out.println(x);
+    }
+}
+
+/*
+Note1:interface method - public and abstract
+Note2:interface variable - public, fianl, static
+*/
+
+public : To make variable available for every implementation class.
+static : without existing object , we are going to access.
+final  : implementation class can access variable, but not modify.
+
+=====================================================================
+class extends a class
+class implements interface's
+
+abstract class A{
+abstract void m1();
+public final int x = 100;
+}
+class B extend
