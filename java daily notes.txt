@@ -844,4 +844,11 @@ abstract class A{
 abstract void m1();
 public final int x = 100;
 }
-class B extend
+class B extend A{
+public void m1(){}
+public static void main(String[] args){
+B b = new B();
+System.out.println(b.x);
+}
+}
+
