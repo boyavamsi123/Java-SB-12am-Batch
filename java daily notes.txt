@@ -919,10 +919,16 @@ abstract class Test{
 }
 
 class user{
-public abstract void login(); 
+public abstract void login();  //only declaration no implementation
 public forgetpassword(){} //concrete method
 }
 
+note: if class contains abstract one abstract method;
+      then class should be declared as declared as abstract.
+	  
+note: abstract class contains 
+      1.Zero or more abstract methods
+	  2.abstract methods + concrete method
 
 
 
