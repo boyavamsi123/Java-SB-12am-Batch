@@ -852,3 +852,47 @@ System.out.println(b.x);
 }
 }
 
+===============================================================================
+oops:-object oriented programing 
+---------------------------------
+1.class
+2.method signature
+3.this
+4.object
+
+class:- is template to construct object 
+      - once class there - we can as many object with help of new keywords.
+		
+object oriented programing 
+class
+this 
+constructor
+Method Signature
+
+overriding 
+overloading
+
+Data Hiding 
+Abstract
+Inheritance
+polymorphism
+   
+
+what is data giding?
+-hiding of data, so that outside person cant access our data directly.
+-by using private modifiers we can implement data hiding.
+
+class Test{
+    private int id = 101;
+}
+ 
+The main advantage of data hiding feature we can achieve security.
+
+Abstraction:
+
+Inheritance:
+
+class parent{}
+class child extends parent{}
+
+The main advantage of inheritance is code reusability.
