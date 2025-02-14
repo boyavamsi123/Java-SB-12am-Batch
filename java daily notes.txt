@@ -663,6 +663,9 @@ final void m1(){
 final int x=100;
 }
 }
+
+
+
 ---------------------------------------------------------------------------------------------
 If method declared as the final then we are not allowed  to override the method child classes:
 
@@ -851,6 +854,77 @@ B b = new B();
 System.out.println(b.x);
 }
 }
+
+14.02.2025
+----------
+final class - we cant create child classes [final class not in inheritance process]
+
+method      - if method is final we cant override
+method overload:-
+-----------------
+class Employee{
+public  void login(String name){
+
+}
+public void login(String name, boolean flag){
+
+}
+}
+-----------------------------------------------
+method override:-
+---------------
+class parent{
+public void getGoodQualiting(){
+System.out.println("parent class-method - getGoodQualiting")
+}
+class child extends parent{
+public void getGoodQualiting(){
+System.out.println("child class-method - getGoodQualiting")
+}
+public static void main(string[] args){
+parent p1 = new parent();
+    p1.getGoodQualiting();
+    child c1 = new child();
+}
+}
+}
+
+
+using final keyword:-
+--------------------
+class Account{
+    final int min_Bal=500;
+
+    public static void main(String[] args) {
+        Account a1 = new Account();
+        System.out.println(a1.min_Bal);//500
+        a1.min_Bal=600; //cannot assign a value to final variable min_Bal
+        System.out.println(a1.min_Bal);//600
+    }
+}
+
+---------------------------------------------------------------------------
+variable    - 
+
+class - if class is abstract; we cant create object.
+method - only declaration;
+
+class Test{
+
+}
+object creation possible
+
+abstract class Test{
+
+}
+
+class user{
+public abstract void login(); 
+public forgetpassword(){} //concrete method
+}
+
+
+
 
 ===============================================================================
 oops:-object oriented programing 
