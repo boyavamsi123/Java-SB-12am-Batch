@@ -1,17 +1,16 @@
-class parent{
-    public void getGoodQualiting(){
-    System.out.println("parent class-method - getGoodQualiting");
+class Parent{
+   public void getGoodQualities(){
+    System.out.println("Parent class-method GGQ");
+   }
 }
-class child extends parent{
-    public void getGoodQualiting(){
-    System.out.println("child class-method - getGoodQualiting");
-}
-
-public static void main(String[] args) {
-    parent p1 = new parent();
-    p1.getGoodQualiting();
-    child c1 = new child();
-
-}
-}
+class Child extends Parent{
+    public void getGoodQualities(){
+        System.out.println("Child class-method GGQ");
+    }
+    public static void main(String[] args) {
+        Parent p1 = new Parent();
+        p1.getGoodQualities();
+        Child c1 = new Child();
+        c1.getGoodQualities();
+    }
 }
