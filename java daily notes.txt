@@ -976,3 +976,46 @@ class parent{}
 class child extends parent{}
 
 The main advantage of inheritance is code reusability.
+
+
+final : final means implementation.
+
+Abstract : abstract means there are no implementation.
+
+-final class
+ we cant create child classes
+ i.e: not perticipate in inheritance
+ 
+  class A{
+  }
+  class B extends A{
+  }
+  
+  it is posible
+ -------------------------------------
+-fianl method also
+ if method declared as final method overridding 
+ is not possible
+ 
+ final variable
+ final int x=100;
+ 
+  final class A{
+  }
+  class B extends A{
+  }
+	
+  it is not possible	
+  
+  
+Abstract:-
+
+note: abstract methods no method body only declaration
+
+note: if class contains atleast one abstract method class should be 
+      declared as abstract
+	  
+note: abstract class contains zero or more abstract methods.
+
+note: if class extending abstract class we have to provide implementation
+      for abstract methods
