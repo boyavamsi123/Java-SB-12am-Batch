@@ -12,7 +12,7 @@ class square extends Data{
     }
 }
 
-Class Rectangle extends Data{
+class Rectangle extends Data{
     int p, area;
     void calculate(){
         p=2*(l+b);
@@ -24,9 +24,9 @@ Class Rectangle extends Data{
 
 class main{
     public static void main(String[] args){
-        Square s = new square();
+        square s = new square();
         Rectangle r = new Rectangle();
-        S.calarea();
+        s.calarea();
         r.calculate();
     }
 }
