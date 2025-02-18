@@ -1008,7 +1008,7 @@ Abstract : abstract means there are no implementation.
   it is not possible	
   
   
-Abstract:-
+Abstract:- persial implementation
 
 note: abstract methods no method body only declaration
 
@@ -1019,3 +1019,13 @@ note: abstract class contains zero or more abstract methods.
 
 note: if class extending abstract class we have to provide implementation
       for abstract methods
+--------------------------------------------------------------------------------
+18.02.2025
+-------------
+Interface:-   defines the methods a class must implement.
+-----------
+Abstract method
+default
+static
+variable
+nested interface

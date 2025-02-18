@@ -1,0 +1,34 @@
+Interface:-   defines the methods a class must implement.
+-----------
+Abstract method
+default
+static
+variable
+nested interface
+-------------------------------------------------------------------
+1.what is interface?
+2.what interface contains?
+-abstract methods
+-default methods
+-static methods
+-variable 
+-public static final
+-nested interface
+
+3.difference between abstract class and interface?
+
+4.what is abstract class?
+
+
+note: whether we declared or not by default interface variable recreate
+      public,static,final
+    
+final:- if variable is final we can't modify.
+
+static variable:- only one copy will create at class level & shared to all objects.
+
+
+How to access static variable:
+-class name
+-object
+-directly in static context
