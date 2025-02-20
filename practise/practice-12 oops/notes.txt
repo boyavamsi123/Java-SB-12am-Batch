@@ -1,0 +1,30 @@
+OOPs:- object oriented programming 
+----------------------------------
+class
+this
+constructor
+
+Data Hiding
+
+Abstract
+Encapsulation
+Inheritance
+polymoriphism
+
+Overriding 
+overloading
+
+class- class is template to construct objects.
+Once class is there - we can as many object with help of new keywords.
+
+Data Hiding?
+Hiding of data , so that outside person cant access our data directly.
+
+-By using private modifiers we can implement data hiding.
+ class Test{
+    private int id=101;
+ }
+ The main advantage of data hiding features we can achive security.
+
+ Abstraction:-
+ Inheritance:-

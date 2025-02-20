@@ -1029,3 +1029,65 @@ default
 static
 variable
 nested interface
+-----------------------------------------------------------------------
+19.02.2025
+-----------
+1.what is OOPs?
+---------------
+ OOP(object oriented Programming) is a Programming paradigm based on the 
+ concept of "object".
+ --------------------------------------------------------------------------
+2.what are the principles of OOPs?
+----------------------------------
+1.Inheritance
+2.Encapsulation
+3.Polymorphism
+4.Abstraction
+--------------------------------------------------------------------------
+3.Programming languages that follow OOPs?
+-----------------------------------------
+
+4.Is java object oriented Programming language or object based Programming
+  language?
+5.Is java pure 100% object oriented Programming language?
+
+Inheritance:-
+
+1. what is Inheritance? (super class, sub class)(parent class, child class)
+-----------------------
+Inheritance is a mechanism in which one class aquires all the properties 
+and behaviurs of another class with the specific relationship.
+-------------------------------------------------------------------------
+2.types of Inheritance?
+----------------------
+-multi level inheritance
+-multiple inheritance
+--------------------------------------------------------------------------
+3.implementation of Inheritance with class?
+4.implementation of Inheritance with Inheritances?
+------------------------------------------------------------------------
+5.super keyword?
+-----------------
+The superkeyword in Javarefers to the immediate parent class of a 
+subclass.
+-----------------------------------------------------------------------
+20.02.2025
+-----------
+OOPs: Object Oriented Programming Langauage
+-------------------------------------------
+Types of oops:
+
+Inheritance
+Encapsulation
+polymorphism
+Abstractions
+
+What is the inheritance:
+
+class:-
+-class is a type
+-class is a template
+-class is a plan
+-class is a design to constructor objects.
+
+this:- this is a pointer to currect object to access class method in side a class.
