@@ -1,0 +1,22 @@
+Inheritance:-
+
+1. what is Inheritance? (super class, sub class)(parent class, child class)
+-----------------------
+Inheritance is a mechanism in which one class aquires all the properties 
+and behaviurs of another class with the specific relationship.
+-------------------------------------------------------------------------
+2.types of Inheritance?
+----------------------
+-multi level inheritance
+-multiple inheritance
+--------------------------------------------------------------------------
+3.implementation of Inheritance with class?
+4.implementation of Inheritance with Inheritances?
+------------------------------------------------------------------------
+5.super keyword?
+-----------------
+The superkeyword in Javarefers to the immediate parent class of a 
+subclass.
+
+Note:java is not support multiple inheritance but we can achieve through
+     inheritance.

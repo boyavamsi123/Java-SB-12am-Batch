@@ -1,0 +1,37 @@
+Constructor:-
+------------
+1.Constructor is a set of instructions used for initialization
+(Assigning) and Intatiation (Object creation)
+2.Constructor name and class name be always same.
+3.Constructor will not have return type.
+4.Constructor will get executed at the time of object creation.
+5.Constructor are categorized into two types.
+  1.Default Constructor
+  2.Custom / User Define Constructor
+
+1.Default Constructor:-
+------------------------
+- if a Constructor is not explicity present  in a class, then the compiler 
+will automatically generate a Constructor and these Constructors are called as default 
+Constructor.
+2.Custom / User Constructor:-
+------------------------------
+- If a Constructor is explicity default inside a class by the user or the
+programmer then we refer it as Custom / User Constructor.
+
+They are furthur categorized into two types:-
+1.Non Parameterized Custom Constructor
+2.Parameterized Custom 
+
+what is Constructor?
+-------------------
+-special method, To initialization object values
+-Constructor method will execute only once & automatically
+ at time of object Constructor
+-we cant invoice cant method explicity
+
+Note:
+if develop not providing only Constructor compiler will place default Constructor
+
+Note:
+what is use of default Constructor to initialization default values for variables
