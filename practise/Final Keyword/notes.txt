@@ -1,0 +1,5 @@
+1.what is final? why it is introduced?
+2.How to use final with variables?
+3.how to use final with parameters?
+4.how to use final with classes?
+5.Important points to remember?
