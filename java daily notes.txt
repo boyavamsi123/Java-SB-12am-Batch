@@ -1091,3 +1091,56 @@ class:-
 -class is a design to constructor objects.
 
 this:- this is a pointer to currect object to access class method in side a class.
+---------------------------------------------------------------------------------------
+
+24.02.2025
+----------
+Inheritance:
+------------
+Reusing Exesting functionalality & adding new features
+or
+Inheritance properties from parent class to child class
+
+Java supported
+----------------------------
+single Inheritance
+Multilevel Inheritance
+Hybrid & Hyrarchical
+
+exept multiple inheritance
+
+
+java 1.8 features:
+-------------------
+1. FI - sum abstract method
+      - single abstract method
+	  
+2. @FI - To restrict FI
+
+3. ()->{} - Lambda Exp
+
+4.Predefined FI ?
+ function     | Consumer
+ BiFunction   | suppier
+ Predicate    |
+ Bipredicate  |
+ 
+5. Interface Enhancements
+    1. default methods
+    2. static methods
+
+6. Date & Time
+
+7. Optinal Class
+
+8. Stream API
+
+9.  :: [double color OP]
+11. JS-Engine
+
+Interface:
+-abstract methods
+-default methods
+-static methods
+
+
