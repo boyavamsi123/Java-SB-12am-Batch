@@ -1110,7 +1110,7 @@ Hybrid & Hyrarchical
 exept multiple inheritance
 
 
-java 1.8 features:
+java 1.8 features: consice code 
 -------------------
 1. FI - sum abstract method
       - single abstract method
@@ -1143,4 +1143,18 @@ Interface:
 -default methods
 -static methods
 
+what is interface:
 
+public interface circle{
+//abstract method
+public abstract void m1();
+public abstract void m2();
+}
+
+
+Functional programming?
+
+Functional interface?
+SAM - Single Abstract Method
+
+Functional Interface - is interface which contains a SAM is called Functional Interface.

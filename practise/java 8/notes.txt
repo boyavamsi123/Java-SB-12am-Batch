@@ -1,0 +1,48 @@
+java 1.8 features: consice code 
+-------------------
+1. FI - sum abstract method
+      - single abstract method
+	  
+2. @FI - To restrict FI
+
+3. ()->{} - Lambda Exp
+
+4.Predefined FI ?
+ function     | Consumer
+ BiFunction   | suppier
+ Predicate    |
+ Bipredicate  |
+ 
+5. Interface Enhancements
+    1. default methods
+    2. static methods
+
+6. Date & Time
+
+7. Optinal Class
+
+8. Stream API
+
+9.  :: [double color OP]
+11. JS-Engine
+
+Interface:
+-abstract methods
+-default methods
+-static methods
+
+what is interface:
+
+public interface circle{
+//abstract method
+public abstract void m1();
+public abstract void m2();
+}
+
+
+Functional programming?
+
+Functional interface?
+SAM - Single Abstract Method
+
+Functional Interface - is interface which contains a SAM is called Functional Interface.
