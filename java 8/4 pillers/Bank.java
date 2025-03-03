@@ -1,3 +1,3 @@
-public abstract class Bank{
-    public abstract void Cal_Bal();
+public abstract class Bank {
+    public abstract  void cal_Bal();
 }

@@ -1,4 +1,4 @@
-public class Account{
+public class Account extends Bank{
     private String acc_Name;
     private String acc_Email;
 
@@ -17,8 +17,9 @@ public class Account{
     public void setAcc_Email(String acc_Email) {
         this.acc_Email = acc_Email;
     }
+
     @Override
-    public void cal_Bal(){
+    public void cal_Bal() {
 
     }
 }
