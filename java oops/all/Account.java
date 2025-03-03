@@ -1,11 +1,6 @@
-public class Account extends  Bank {
+public class Account extends Bank{
     private String acc_Name;
     private String acc_Email;
-
-    public Account(String name, String email) {
-        this.acc_Name = name;
-        this.acc_Email = email;
-    }
 
     public String getAcc_Name() {
         return acc_Name;
@@ -23,5 +18,8 @@ public class Account extends  Bank {
         this.acc_Email = acc_Email;
     }
 
-    public void cal_Bal(){}
+    @Override
+    public void cal_Bal() {
+
+    }
 }
