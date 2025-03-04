@@ -1,0 +1,49 @@
+primitive Data type:-
+----------------------
+byte
+short
+int 
+long
+float
+double
+char
+boolean
+
+wrapper classes?
+---------------------
+Byte
+Short
+Integer
+Long
+Float
+Double
+Character
+Boolean
+
+Object:-
+------------------------
+String
+SB
+SB
+Exception Handling - classes & interfaces
+-------------------------------------------------
+
+class Object{
+    //methods
+}
+--------------------------------------------------
+class parent{
+
+}
+class child extends parent{
+
+}
+class Grand child extends child{
+
+}
+
+bin   Dec   Oct    H
+ 2    10    8     16
+0,1   0-9   0-7   0-9
+                  0-f
+                  A-F
