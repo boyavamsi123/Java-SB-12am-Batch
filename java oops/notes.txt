@@ -5,3 +5,68 @@ oop:
 3.Inheritance
 4.Polymorphism
 
+oops concept:-
+--------------------
+1.class
+2.object
+3.Encapsulation
+4.Inheritance
+5.Polymorphism
+6.Dynamic Binding
+7.Message Communication
+8.Data Hiding
+9.Data abstraction
+
+
+class:- entire set of data & code of on object. it is a user defined data type.
+        it creates no.of objects
+		Ex: fruit is a class
+		class classname{
+		   data members;
+		   members functions;
+		}
+		
+object:- int x;            
+		 class subname;      
+		 sample s;
+				
+->it is a basic runtime entity
+->it is instance of a class		
+
+Encapsulation:- The wrapping up of data & functions into a single unit is called 
+                Encapsulation. 
+				
+Inheritance:- Acquiring the properties of one class to another class.
+
+class A{
+}
+class B extends A{
+}
+
+Polymorphism:- ability to take more than one form.
+            Ex: function overloading
+			sum(){
+			}
+			sum(int x, int y){
+			}
+			
+Dynamic Binding:- Static - compile time  (private,final,static)
+                  Dynamic - Run Time     (virtual)
+				  
+				Binding
+                -Static
+                -Dynamic
+
+Message Communication:- 
+
+                obj 1------->obj 2
+                  |            |
+                  |--->obj3<---|	 
+
+Data Hiding:- In this data can be accessed only in the functions of same class.
+
+Data Abstraction:- (ADT)	Ex:- ATM
+                     |
+				   class
+The technique of craeting new data type are called abstract data type the concept
+is called data abstraction.				   

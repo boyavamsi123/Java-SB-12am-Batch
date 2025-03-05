@@ -23,8 +23,9 @@ Boolean
 Object:-
 ------------------------
 String
-SB
-SB
+SB - (String Buffer)
+SB - (String Builder)
+
 Exception Handling - classes & interfaces
 -------------------------------------------------
 
@@ -47,3 +48,26 @@ bin   Dec   Oct    H
 0,1   0-9   0-7   0-9
                   0-f
                   A-F
+
+
+----------------------------------------------------------------------
+05.03.2025
+----------
+String literals:
+-------------------
+
+
+equals() methods : 
+----------------   
+a.equals() method applicable only 
+  Objects
+b.Object class  equals method is ref 
+  comparision
+c.String class equals is content comparision.
+
+== operator :
+--------------
+a.applicable for primitive & Object
+b.== operator for primitive content comparision
+c.== operator for Object ref comparision
+  but relation required?
