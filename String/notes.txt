@@ -1,0 +1,35 @@
+string objects are two types:-
+-----------------------------
+1.mutable
+2.immutable
+
+primitive data types:-
+---------------------
+byte
+short
+int
+long
+float
+double
+char
+boolean
+
+=========================================================================
+
+wrapper class:-
+--------------
+Byte
+Short
+Integer
+Long
+Float
+Double
+Character
+Boolean
+
+wrapper classes:-
+1.valueof()-method to create wrapper object for given string or primitive,
+  as alternative to constructor.
+2.xxxValue()-method of find primitive value for given wrapper object.
+3.parsexxx()-metnod to convert string to primitive.
+4.toString()-method to convert wrapper object and primitive to string.
