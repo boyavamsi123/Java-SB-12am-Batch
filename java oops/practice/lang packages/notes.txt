@@ -1,0 +1,23 @@
+string, stringBuffer, all wrapper classes equals method is override - content
+comparision
+
+.equals() method :
+--------------------------------------------------------------------------
+applicable for only objects
+
+By default equals() - object class it is for ref comparision.
+
+We can override for content comparision.
+
+String class - equals is overriddern for content comparision.
+
+
+== Operator :
+----------------------------------------------------------------------------
+applicable for primitive data types and object 
+
+== Operator : in case of objects - ref comparision.
+              in case primitive - content comparisi
+
+== Operator with object's: Relation required. 
+If there is no relation between objects we ill get compile time error.
