@@ -1,0 +1,35 @@
+Error vs Exception : 
+
+Error : 
+most of the cases errors are not caused by our program & these are due to lack of system resources.
+Error are non-recordable.
+
+Example : If OutOfMemoryError occurs being a programmer we cant do anything 
+then the program will be terminated abnormally. System or Server Admin is responsible 
+for increasing Heap Memory.
+
+
+Exception : Most of the cases exceptions are caused by our program & these are recovarable
+
+
+Types of Exceptions :
+
+1.User Defined exceptions
+2.Built-In Exceptions
+  1.Checked Exceptions
+  -------------------------
+  -classNotFoundException
+  -Interrupted Exception
+  -IOException
+  -InstatiationExption
+  -SQlException
+  -FileNotFoundException
+
+  2.Unchecked Exceptions
+  -----------------------
+  -ArithmaticException
+  -ClassCastException
+  -NullPointerException
+  -ArrayIndexOutOfBoundsException
+  -ArrayStoreException
+  -IllegalThreadStateException
