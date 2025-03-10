@@ -1,0 +1,26 @@
+try{
+        - Risky code
+}
+catch{
+        - Handling code 
+}
+finaly
+throw
+throws
+
+
+ArithmaticException
+NumberFormateException
+NullPointerException
+AIOBSException
+IllegulArgumentException
+ClassNotFoundException
+ClassCastException
+
+
+Write Examples/sample code to generate AboveException
+
+Java Exception 
+----------------
+Checked Exception
+Unchecked Exception
